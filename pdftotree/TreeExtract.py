@@ -156,6 +156,7 @@ class TreeExtractor(object):
         return self.scanned
 
     def get_tables_page_num(self, page_num):
+        return []
         page_boxes, _ = self.get_candidates_and_features_page_num(page_num)
         tables = page_boxes
         return tables
